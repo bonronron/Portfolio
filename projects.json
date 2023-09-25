@@ -1,0 +1,12 @@
+[
+    {"title":"Jack With a Jetpack",
+     "description":"A 3D platformer game developed using Unity Engine for my final year degree project.",
+     "link":"https://www.github.com/bonronron/jackwithajetpack",
+     "img":"thumbnails/JackWithaJetpack.gif"
+    },
+    {"title":"Guess Who Android",
+     "description":"A 2D Android game developed using Unity Engine to explore the UI tools provided by the engine",
+     "link":"https://www.github.com/bonronron/GuessWho",
+     "img":"thumbnails/GuessWho.gif"
+    }
+]
