@@ -1,12 +1,35 @@
-[
+{"games":[
     {"title":"Jack With a Jetpack",
-     "description":"A 3D platformer game developed using Unity Engine for my final year degree project.",
-     "link":"https://www.github.com/bonronron/jackwithajetpack",
-     "img":"thumbnails/JackWithaJetpack.gif"
+    "description":"A 3D platformer game developed using Unity Engine for my final year degree project.",
+    "link":"https://www.github.com/bonronron/jackwithajetpack",
+    "img":"imgs/JackwithaJetpack.gif"
+    },
+    {"title":"Ferynier (Group Project)",
+    "description":"3D Maze Stealth Game developed using Unity Engine, I worked on developing the game mechanics, animation programming, game programming and UI",
+    "link":"https://www.github.com/bonronron/FerynierCode",
+    "img":"imgs/Ferynier.gif"
     },
     {"title":"Guess Who Android",
      "description":"A 2D Android game developed using Unity Engine to explore the UI tools provided by the engine",
      "link":"https://www.github.com/bonronron/GuessWho",
-     "img":"thumbnails/GuessWho.gif"
+     "img":"imgs/GuessWho.gif"
+    },
+    {"title":"Troll Lair Simulator",
+     "description":"A 2D top-down interactive simulation developed using Unity Engine to explore the behaviour trees, utility states and flock movement",
+     "link":"https://www.github.com/bonronron/TrollLair",
+     "img":"imgs/TrollLair.gif"
+    },
+    {"title":"Turf Mafia Android",
+     "description":"A 3D GPS Based Tower Defense Android game developed using Unity Engine and Lightship Maps API to explore emergence of GPS based games as my university dissertation project",
+     "link":"https://www.github.com/bonronron/TurfMafia",
+     "img":"imgs/TurfMafia.gif"
+    }
+
+],
+"literature":[
+    {"title": "Review of AI Companions in Bioshock infinite and Last of Us",
+     "description":"",
+     "pdf":""
     }
 ]
+}

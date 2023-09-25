@@ -1,3 +1,6 @@
+html {
+    scroll-behavior: smooth;
+  }
 body {
     background-color: #f6f6f6;
     background-image: -webkit-linear-gradient(left, hsla(0,0%,0%,0) 0%, hsla(0,0%,0%,0) 50%,
@@ -8,13 +11,16 @@ body {
     line-height: 1;
     margin: 0 auto;
     padding: 1.5em;
-    width: 45em;
 }
-#projects{
+.projects{
     list-style-type: none;
-    display: flex;
+    display: inline-flex;
     flex-flow: wrap;
     float: left;
+}
+
+.projects li{
+    margin: 0.7em;
     align-items: center;
 }
 figure {
@@ -34,18 +40,27 @@ figcaption {
     background-color: #222;
     color: #fff;
     padding: 1em;
-    display: block;
-    font-size: 0em;
+    display:none;
     transition: .5s all;
+    text-decoration: none;
+}
+figcaption small{
+    font-size: 0.5em;
 }
 figure:hover {
-    transform: scale(1.7);
+    transform: scale(1.2);
     transition: .5s all;
+    margin-bottom: 10em;
 }
 figure:hover img{
     border-radius: 0;
 }
 figure:hover figcaption {
-    font-size: 0.7em;
+    display: block;
     transition: .5s all;
+}
+
+.card-horizontal {
+    display: flex;
+    flex: 1 1 auto;
 }
