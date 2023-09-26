@@ -36,7 +36,7 @@ img {
     display: block;
     width: 100%;
 }
-figcaption {
+.game-project-caption {
     background-color: #222;
     color: #fff;
     padding: 1em;
@@ -44,7 +44,8 @@ figcaption {
     transition: .5s all;
     text-decoration: none;
 }
-figcaption small{
+
+.game-project-caption small{
     font-size: 0.5em;
 }
 figure:hover {
@@ -55,12 +56,21 @@ figure:hover {
 figure:hover img{
     border-radius: 0;
 }
-figure:hover figcaption {
+figure:hover .game-project-caption {
     display: block;
     transition: .5s all;
 }
 
+.literature-card{
+    background-color: #f6f6f6;
+    box-shadow: 0 20px 15px -10px hsla(0,0%,0%,.1);
+}
 .card-horizontal {
     display: flex;
     flex: 1 1 auto;
+}
+
+.skills p{
+    padding: .73em;
+    margin-bottom: 0.2em;
 }

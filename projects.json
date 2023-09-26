@@ -23,13 +23,30 @@
      "description":"A 3D GPS Based Tower Defense Android game developed using Unity Engine and Lightship Maps API to explore emergence of GPS based games as my university dissertation project",
      "link":"https://www.github.com/bonronron/TurfMafia",
      "img":"imgs/TurfMafia.gif"
+    },
+    {"title":"ASCII Video Converter",
+    "description":"A Simple Python project that displayed video feed as an ASCII character style video.",
+    "link":"https://www.github.com/bonronron/ASCIIVideo",
+    "img":"imgs/ASCIIVideo.gif"
     }
 
 ],
 "literature":[
     {"title": "Review of AI Companions in Bioshock infinite and Last of Us",
-     "description":"",
-     "pdf":""
+     "description":"Review of AI Companions in Bioshock infinite and Last of Us",
+     "pdf":"pdfs/AI Companions.pdf"
+    },
+    {"title": "Design of Game Description Languages",
+     "description":"Literature Review of the evolution and workings of game description languages",
+     "pdf":"pdfs/Design of Game Description Languages.pdf"
+    },
+    {"title": "Improved Heuristics for Sushi Go and Applicability of Probabilistic Scoring",
+     "description":"Group Project involving using Tabletop games framework by IGGI and implementing a heuristic AI Agent for playing Sushi Go",
+     "pdf":"pdfs/Improved Heuristics for Sushi Go and Applicability of Probabilistic Scoring.pdf"
+    },
+    {"title": "Star Trek Dialogue Generator",
+     "description":"GPT-3 Fine-tuned model which generates star trek dialogues",
+     "pdf":"pdfs/Star Trek Dialogue Generator.pdf"
     }
 ]
 }

@@ -6,7 +6,7 @@ $(document).ready(function(){
             $(`#game-projects`).append(`<li><a class= "text-decoration-none" href="${value['link']}">
             <figure>
                 <img src= ${value['img']}>
-                <figcaption>
+                <figcaption class="game-project-caption">
                     <h6>${value['title']}</h6>
                     <p><small>${value['description']}</small></p>
                 </figcaption>
@@ -16,14 +16,15 @@ $(document).ready(function(){
         // Literature Project html
         projects = category['literature'];
         $.each(projects,function(ix,value){
-            $(`#literature-projects`).append(`<li><a class= "text-decoration-none" href="${value['link']}">
-            <figure>
-                <img src= ${value['img']}>
-                <figcaption>
-                    <h6>${value['title']}</h6>
-                    <p><small>${value['description']}</small></p>
-                </figcaption>
-            </figure> </a>
+            $(`#literature-projects`).append(`<li class=col-5><a class= "text-decoration-none" target="_blank" href="${value['pdf']}">
+                <div class="card p-2 literature-card" >
+                    <img style="width:2em" class='card-img-top' src="https://upload.wikimedia.org/wikipedia/commons/d/df/Icon-pdf.svg">
+                    <div class=card-body>
+                        <h6 class=card-title>${value['title']}</h6>
+                        <small class="card-text text-wrap">${value['description']}</small>
+                    </div>
+                </div>
+            </a>
             </li>`);
         });
     }).fail(function(){
