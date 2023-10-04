@@ -2,7 +2,13 @@ $(document).ready(function(){
     $.getJSON("projects.json", function(category){
         // Games Project html
         projects = category['games'];
+        
         $.each(projects,function(ix,value){
+            badges = "";
+            $.each(value['badges'],(i,val)=>{
+                badges = badges +`<span class="badge badge-dark badge-pill" style="font-size:0.6em; font-weight:bold;">${val}</span> `
+            });
+            console.log(badges)
             $(`#game-projects`).append(`<li><a class= "text-decoration-none" href="${value['link']}">
             <figure>
                 <img src= ${value['img']}>
@@ -10,6 +16,7 @@ $(document).ready(function(){
                     <h6>${value['title']}</h6>
                     <p><small>${value['description']}</small></p>
                 </figcaption>
+                <hr class="bg-secondary m-0">${badges}
             </figure> </a>
             </li>`);
         });

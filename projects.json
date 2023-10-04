@@ -1,36 +1,41 @@
 {"games":[
-    {"title":"Jack With a Jetpack",
-    "description":"A 3D platformer game developed using Unity Engine for my final year degree project.",
-    "link":"https://www.github.com/bonronron/jackwithajetpack",
-    "img":"imgs/JackwithaJetpack.gif"
+    {"title": "ECS architecture basics using C++",
+    "description":"A simple game to learn programming patterns and the Entity Component System architecture using C++/SFML",
+    "link":"https://github.qmul.ac.uk/ec22054/Simple-Mini-Game",
+    "img":"imgs/SimpleMiniGame.gif",
+    "badges":["C++","Entity Component Architecture","SFML","Observer Pattern","Command pattern","Service Allocator pattern"]
     },
     {"title":"Ferynier (Group Project)",
     "description":"3D Maze Stealth Game developed using Unity Engine, I worked on developing the game mechanics, animation programming, game programming and UI",
     "link":"https://www.github.com/bonronron/FerynierCode",
-    "img":"imgs/Ferynier.gif"
+    "img":"imgs/Ferynier.gif",
+    "badges":["C#","Unity","Stealth Mechanics","Animation Programming","Inventory System","UI"]
     },
-    {"title":"Guess Who Android",
-     "description":"A 2D Android game developed using Unity Engine to explore the UI tools provided by the engine",
-     "link":"https://www.github.com/bonronron/GuessWho",
-     "img":"imgs/GuessWho.gif"
+    {"title":"Jack With a Jetpack",
+    "description":"A 3D platformer game developed using Unity Engine, I made the entire project starting from animation to physics mechanism for jetpack, inventory, UI, gameplay",
+    "link":"https://www.github.com/bonronron/jackwithajetpack",
+    "img":"imgs/JackwithaJetpack.gif",
+    "badges":["C#","Unity","3D-Platformer Mechanics","Jetpack Physics","Coin Collection","Inventory System"]
     },
     {"title":"Troll Lair Simulator",
-     "description":"A 2D top-down interactive simulation developed using Unity Engine to explore the behaviour trees, utility states and flock movement",
-     "link":"https://www.github.com/bonronron/TrollLair",
-     "img":"imgs/TrollLair.gif"
+    "description":"A 2D top-down interactive simulation developed using Unity Engine to explore the behaviour trees, utility states and flock movement",
+    "link":"https://www.github.com/bonronron/TrollLair",
+    "img":"imgs/TrollLair.gif",
+    "badges":["Unity","Behavior Trees","Utility States","Interactive Simulation","Unity Movement AI"]
     },
     {"title":"Turf Mafia Android",
-     "description":"A 3D GPS Based Tower Defense Android game developed using Unity Engine and Lightship Maps API to explore emergence of GPS based games as my university dissertation project",
-     "link":"https://www.github.com/bonronron/TurfMafia",
-     "img":"imgs/TurfMafia.gif"
+    "description":"A 3D GPS Based Tower Defense Android game developed using Unity Engine and Lightship Maps API to explore emergence of GPS based games as my university dissertation project",
+    "link":"https://www.github.com/bonronron/TurfMafia",
+    "img":"imgs/TurfMafia.gif",
+    "badges":["Unity","GPS-Based","Tower Defense","Android","Niantic Lightship Maps"]
     },
-    {"title":"ASCII Video Converter",
-    "description":"A Simple Python project that displayed video feed as an ASCII character style video.",
-    "link":"https://www.github.com/bonronron/ASCIIVideo",
-    "img":"imgs/ASCIIVideo.gif"
+    {"title":"Guess Who Android",
+    "description":"A 2D Android game developed using Unity Engine to explore the UI tools provided by the engine",
+    "link":"https://www.github.com/bonronron/GuessWho",
+    "img":"imgs/GuessWho.gif",
+    "badges":["Unity","Android","UI"]
     }
-
-],
+    ],
 "literature":[
     {"title": "Review of AI Companions in Bioshock infinite and Last of Us",
      "description":"Review of AI Companions in Bioshock infinite and Last of Us",
